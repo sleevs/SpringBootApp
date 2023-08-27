@@ -22,7 +22,7 @@ public interface Crud <E>{
 	
 
 
-	@PutMapping("/atualizar/{id}")
+	@PutMapping("/atualizar")
 	public ResponseEntity<String> atualizar(@RequestBody E model );
 	
 	
